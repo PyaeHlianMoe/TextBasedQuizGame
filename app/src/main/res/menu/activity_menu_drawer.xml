@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Home" />
+        <item android:id="@+id/nav_scoreboard"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Scoreboard" />
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

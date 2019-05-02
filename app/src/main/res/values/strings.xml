@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Quizzer</string>
+    <string name="login">Login</string>
+    <string name="start">Start</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Registration">Registration</string>
+    <string name="Intro">This is introduction to ourselves</string>
+    <string name="SignIn_Option">Or sign in with:</string>
+    <string name="Already_Member">Already a member ? Login Here</string>
+    <string name="New_Member">Don\'t have an account? Sign up Here</string>
+    <string name="CreateQuiz">Create Quiz</string>
+    <string name="ModifyQuiz">Modify Quiz</string>
+    <string name="ViewReport">View Report</string>
+    <string name="AddQuestion">Add question</string>
+    <string name="login_subtitle_one">Quizzer</string>
+    <string name="login_subtitle_two">by Group M.O.E.</string>
+    <string name="Welcome">Welcome</string>
+    <string-array name="Questions">
+        <item>Question1</item>
+        <item>Question2</item>
+        <item>Question3</item>
+        <item>Question4</item>
+        <item>Question5</item>
+        <item>Question6</item>
+        <item>Question7</item>
+        <item>Question8</item>
+        <item>Question9</item>
+        <item>Question10</item>
+    </string-array>
+    <string-array name="Modules">
+        <item>Please choose the modules!</item>
+    </string-array>
+    <string-array name="Topics">
+        <item>Please choose the topics!</item>
+    </string-array>
+    <string-array name="Difficulty">
+        <item>Please choose the difficulty!</item>
+    </string-array>
+
+
+    <string name="facebook_app_id">332092030999301</string>
+    <!--stirng name="facebook-login_protocol_scheme">fb332092030999301</stirng-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_n_menu">n_activity_menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+</resources>

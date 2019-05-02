@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_background"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview_module"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CZ3003"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textview_topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course name here"
+                android:textColor="@color/black_overlay"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textview_creator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="Today"
+                android:textColor="@color/black_overlay"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/textview_score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="7/10"
+                android:textColor="#DC6464"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

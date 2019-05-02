@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical"
+    tools:context=".Fragments.ChallengeeFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            android:textColor="@color/black_overlay"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Module : "
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/txtView_Module"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black_overlay"
+                android:textSize="20sp"
+                tools:text="Module Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Topic : "
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/txtView_Topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black_overlay"
+                android:textSize="20sp"
+                tools:text="Topic Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Challenger : "
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/txtView_Challengee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black_overlay"
+                android:textSize="20sp"
+                tools:text="Challenger Name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Difficulty : "
+                android:padding="10dp"
+                android:textColor="@color/colorPrimaryLight"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/txtView_Difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/black_overlay"
+                android:textSize="20sp"
+                tools:text="Difficulty" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_StartNow"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/choice_a"
+            android:text="Start Now"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

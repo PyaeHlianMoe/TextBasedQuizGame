@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/edittext_background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text_course_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CZ3003"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/text_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course name here"
+            android:textColor="@color/black_overlay"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Today"
+            android:gravity="right"
+            android:textColor="@color/black_overlay"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7/10"
+            android:gravity="right"
+            android:textColor="#DC6464"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

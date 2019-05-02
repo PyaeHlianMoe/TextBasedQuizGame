@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/login_page">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/quizzer_logo"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:id="@+id/usernameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/imageView_user_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_man_user"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/loginUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_user_icon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_user_icon"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/passwordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/imageView_user_pass"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lock"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/loginPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_user_pass"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_user_pass"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textSize="15sp"
+            android:textColorHint="@color/colorWhite" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:background="@drawable/choice_d"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorTransparent"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_fb_login"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Login with Facebook"-->
+        <!--android:background="#0843C3"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:fontFamily="sans-serif-medium"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:drawableLeft="@drawable/ic_fb"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/btn_signUp_member"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:text="Don't have an account? Click here to sign up."
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

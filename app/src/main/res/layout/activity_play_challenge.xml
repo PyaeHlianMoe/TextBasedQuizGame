@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_option1"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="272dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/bt_START"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:layout_marginTop="272dp"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/bt_option2"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="272dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/bt_option3"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="480dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/bt_option4"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="480dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/tv_questionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Question" />
+
+    <TextView
+        android:id="@+id/tv_questionDesc"
+        android:layout_width="404dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="148dp"
+        android:text="Question" />
+
+    <FrameLayout
+        android:id="@+id/FragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</RelativeLayout>

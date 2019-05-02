@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your difficulty!"
+            android:textColor="@color/black_overlay"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_Easy"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/choice_c"
+                android:padding="50dp"
+                android:text="Easy"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_Medium"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/choice_b"
+                android:padding="50dp"
+                android:text="Intermediate"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_Hard"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/choice_d"
+                android:padding="50dp"
+                android:text="Difficult"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_choice_a"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginLeft="30dp"
+        android:text="jkajdkfakfkdfkafjdkf aflkdakjdlf akfajkdjlfjd kjklaj lk kajfdkjladf"
+        android:paddingLeft="80dp"
+        android:paddingRight="10sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15sp"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/bt_choice_a"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:text="A"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/choice_a"/>
+
+</RelativeLayout>

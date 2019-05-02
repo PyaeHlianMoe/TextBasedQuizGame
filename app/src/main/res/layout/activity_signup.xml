@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/login_page">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/quizzer_logo"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:id="@+id/usernameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/imageView_user_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_man_user"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/regUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_user_icon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_user_icon"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <ImageView
+            android:id="@+id/imageView_email_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_email"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_email_icon"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_email_icon"
+            android:hint="Email Address"
+            android:inputType="text"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/passwordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/emailLayout">
+        <ImageView
+            android:id="@+id/imageView_user_pass"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lock"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_user_pass"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_user_pass"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/confirmPasswordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/emailLayout">
+        <ImageView
+            android:id="@+id/imageView_user_confirmpass"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_lock"
+            android:tint="#fff"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/regRePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView_user_confirmpass"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView_user_confirmpass"
+            android:hint="Comfirm Password"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/choice_d"
+        android:fontFamily="sans-serif-medium"
+        android:text="Create Account"
+        android:textColor="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/btn_fb_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="#0843C3"
+        android:drawableLeft="@drawable/ic_fb"
+        android:fontFamily="sans-serif-medium"
+        android:text="Signup with Facebook"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_Already_Member"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="0"
+        android:text="Already a member? Click here to login."
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
